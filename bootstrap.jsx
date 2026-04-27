@@ -1,5 +1,5 @@
 import React from "react";
-import "Bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Bootstrap(){
     return(

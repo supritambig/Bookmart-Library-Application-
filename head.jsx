@@ -1,12 +1,17 @@
 import React from 'react'
-import "./Header.css"
-function Header(){
+import "./header.css"
 
-    return(
+function Header() {
+    return (
         <div id='box'>
-         <h1>Subash chandr Bose</h1>
-         <img src="https://images.edexlive.com/uploads/user/imagelibrary/2018/1/23/original/Netaji-Subash-Chandra-Bose1a.jpg" height={400}/>
-         </div>
-         );
+            <h1>Bookmart Library</h1>
+            <p>Your modern campus library portal for reading, borrowing, and learning.</p>
+            <img
+                src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=1200&q=80"
+                alt="Library books"
+            />
+        </div>
+    );
 };
-export default Header
+
+export default Header
